@@ -7,6 +7,34 @@ Q1) Explain linear search and binary search algorithms
       Binary Search:
       o	Binary search is an efficient algorithm for finding an element in a sorted list.
       o	It repeatedly divides the search interval in half. If the target value is less than the middle element, 
-        it searches the left half, otherwise, it searches the right half.
+            it searches the left half, otherwise, it searches the right half.
       o	Time Complexity: 𝑂(log𝑛), where 𝑛 is the number of elements in the list.
       o	Requirement: The list must be sorted
+
+Q2) Setup                  [Refer to Book.java and LibraryManagementSystem.java files] 
+Q3) Implementation         [Refer to Book.java and LibraryManagementSystem.java files]
+
+Q4) Compare the time complexity of linear and binary search.
+      Time Complexity:
+            Linear Search:
+                  Best case: 𝑂(1)   [If the target element is the first element].
+                  Worst case: 𝑂(𝑛)  [If the target element is the last element or not present].
+            Binary Search:
+                  Best case: 𝑂(1)      [If the target element is the middle element).
+                  Worst case: 𝑂(log⁡𝑛)  [If the search space is repeatedly halved until the element is found or the search space is empty].
+
+      When to Use Each Algorithm:
+            Linear Search:
+                  o Use when the list is unsorted.
+                  o Use when the list is unsorted.
+                  o Suitable for small datasets where the overhead of sorting is not justified.
+                  o Easier to implement for general cases without the need for sorting.
+            
+            Binary Search:
+                  o Use when the list is sorted.
+                  o Ideal for large datasets where the faster search time outweighs the cost of sorting.
+                  o More efficient than linear search for sorted datasets due to its logarithmic time complexity.
+                  o More efficient than linear search for sorted datasets due to its logarithmic time complexity.
+
+      This example demonstrates how to use both search algorithms in a library management system and when to choose 
+      each based on the dataset characteristics.
