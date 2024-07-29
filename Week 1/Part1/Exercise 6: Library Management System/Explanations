@@ -1,1 +1,12 @@
-
+Q1) Explain linear search and binary search algorithms
+      Linear Search:
+      o	Linear search is the simplest search algorithm.
+      o	It checks each element in the list until the target element is found or the list ends.
+      o	Time Complexity: 𝑂(𝑛), where 𝑛 is the number of elements in the list.
+      
+      Binary Search:
+      o	Binary search is an efficient algorithm for finding an element in a sorted list.
+      o	It repeatedly divides the search interval in half. If the target value is less than the middle element, 
+        it searches the left half, otherwise, it searches the right half.
+      o	Time Complexity: 𝑂(log𝑛), where 𝑛 is the number of elements in the list.
+      o	Requirement: The list must be sorted
