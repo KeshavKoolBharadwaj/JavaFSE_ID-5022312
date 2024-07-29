@@ -1,1 +1,24 @@
+Q1)Explain the concept of recursion and how it can simplify certain problems.
+    Concept of Recursion:
+        o	Recursion is a method where the solution to a problem depends on solutions to smaller instances of the 
+          same problem.
+        o	A recursive function calls itself to solve smaller subproblems.
+        o	Base Case: The condition under which the recursion ends.
+        o	Recursive Case: The part of the function where the function calls itself with a smaller problem.
+    Benefits of Recursion:
+        o	Simplifies code for problems that have a natural recursive structure (e.g., tree traversal, factorial 
+          computation).
+        o	Can be more intuitive for certain problems by breaking them into smaller, more manageable parts.
+Q2) Setup             [Refer to FinancialForcasting.java file]
+Q3) Implementation    [Refer to FinancialForcasting.java file]
 
+Q4) Discuss the time complexity of your recursive algorithm.
+          Time Complexity:    
+              o	The time complexity of this recursive algorithm is 𝑂(𝑛), where 𝑛 is the number of periods.
+              o	Each call to calculateFutureValue makes exactly one more call until it reaches the base case.
+    
+    Explain how to optimize the recursive solution to avoid excessive computation
+          Optimization to Avoid Excessive Computation:
+              o	Recursion can lead to excessive computation and stack overflow if the depth of recursion is too large.
+              o	Memoization: Store the results of previous computations to avoid redundant calculations. This 
+                              transforms the algorithm into a dynamic programming approach.
