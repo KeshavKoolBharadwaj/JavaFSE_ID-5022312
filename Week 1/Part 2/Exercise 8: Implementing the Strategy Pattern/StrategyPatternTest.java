@@ -11,13 +11,13 @@ public class StrategyPatternTest
         int ch=sc.nextInt();
         if(ch==1)
         {
-            PaymentStrategy creditCardPayment = new CreditCardPayment("1234567890123456", "John Doe", "123", "12/24");
+            PaymentStrategy creditCardPayment = new CreditCardPayment("1234567890123456", "Keshav Bharadwaj", "123", "12/24");
             paymentContext.setPaymentStrategy(creditCardPayment);
             paymentContext.pay(150.00);
         }
         else if (ch==2)
         {
-            PaymentStrategy payPalPayment = new PayPalPayment("john.doe@example.com", "password");
+            PaymentStrategy payPalPayment = new PayPalPayment("kbharadwaj022@gmail.com", "password");
             paymentContext.setPaymentStrategy(payPalPayment);
             paymentContext.pay(200.00);
         }
