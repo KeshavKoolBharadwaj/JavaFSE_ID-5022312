@@ -1,3 +1,9 @@
 Refer to the below listed files:
+    Image.java
+    ProxyImage.java
+    RealImage.java
+    ProxyPatternTest.java
+    placeholder.jpg
 
-The abve listed files are the solution against the given problem statement.
+The placeholder.jpg is a backup image to display if the image url provided in the ProxyPatternTest.java has some error
+or the URL is unreachable. The abve listed files are the solution against the given problem statement.
