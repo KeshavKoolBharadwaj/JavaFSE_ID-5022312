@@ -1,3 +1,8 @@
 Refer to the below files:
-
+      Command.java
+      Light.java
+      LightOnCommand.java
+      LightOffCommand.java
+      RemoteControl.java
+      CommandPatternTest.java
 The above listed files are the solution against the given problem statement
