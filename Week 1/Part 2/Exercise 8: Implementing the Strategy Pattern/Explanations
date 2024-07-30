@@ -1,1 +1,8 @@
 Refer to the below files:
+      PaymentStrategy.java
+      CreditCardPayment.java
+      PayPalPayment.java
+      PaymentCpntext.java
+      StrategyPatternTest.java
+
+The above files are the solution against the given problem statement
