@@ -1,1 +1,7 @@
-
+Refer to the below files:
+    DecoratorPatternTest.java
+    EmailNotifier.java
+    SMSNotifier.java
+    Notifier.java
+    NotifierDecorator.java
+The above listed files are the solution against the given problem statement
