@@ -1,1 +1,9 @@
+Refer to the files named as:
+  Document.java
+  DocumentFactory.java
+  ExcelDocument.java
+  WordDocument.java
+  PdfDocument.java
+  FactoryMethodPatternTest.java
 
+This files contain the complete setup and implementations of the given problem statement.
