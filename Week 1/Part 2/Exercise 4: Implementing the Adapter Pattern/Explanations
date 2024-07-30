@@ -1,1 +1,7 @@
+Refer to the below listed files:
+    o	PaymentProcessor.java
+    o	PayPalAdapter.java
+    o	PayPalGateway.java
+    o	AdapterPatternTest.java
 
+The above listed files contain the soultion against the given problem statement.
